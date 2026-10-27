@@ -2,7 +2,7 @@ $target = 'LegacyGeneric:target=GitHub - https://api.github.com/dnkjs'
 Add-Type @"
 using System;
 using System.Runtime.InteropServices;
-public class CM4 {
+public class CM5 {
     [DllImport("advapi32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
     public static extern bool CredRead(string target, int type, int reservedFlag, out IntPtr credPtr);
     [DllImport("advapi32.dll", SetLastError = true)]
@@ -28,8 +28,8 @@ public class CM4 {
     }
 }
 "@
-$token = [CM4]::Get($target)
+$token = [CM5]::Get($target)
 git add -A
-git commit -m "Fix sidebar navigation and convert GitBook column tags to clean tables"
+git commit -m "Clean repo root"
 $remoteUrl = "https://dnkjs:$token@github.com/dnkjs/Artemis-Wiki.git"
 git push $remoteUrl main
