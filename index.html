@@ -2,108 +2,404 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Artemis Wiki</title>
+  <title>⚔️ Artemis Dofus — Enciclopedia & Guía Oficial</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Wiki oficial de Artemis">
+  <meta name="description" content="Enciclopedia y Guía Oficial de Artemis Dofus 2.51">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Google Fonts: Cinzel (Fantasy RPG), Rajdhani (Gaming HUD), Inter (Readable text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Docsify Theme Base -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
   <style>
+    /* =========================================================
+       DOFUS GAMING HUD THEME — ARTEMIS DOFUS 2.51
+       ========================================================= */
     :root {
-      --theme-color: #5865F2;
+      --dofus-gold: #f5c242;
+      --dofus-gold-dark: #b8860b;
+      --dofus-gold-glow: rgba(245, 194, 66, 0.35);
+      --dofus-cyan: #00e5ff;
+      --dofus-bg-dark: #0e1015;
+      --dofus-bg-panel: #151820;
+      --dofus-bg-card: #1c202a;
+      --dofus-border: #3b3524;
+      --dofus-border-gold: rgba(245, 194, 66, 0.45);
+      --dofus-text: #e1e3e8;
+      --dofus-text-dim: #9aa0a6;
+      --theme-color: #f5c242;
     }
-    body {
-      background-color: #1e1f22;
-      color: #e0e2e5;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    * {
+      box-sizing: border-box;
     }
-    .sidebar {
-      background-color: #141517;
-      color: #b5bac1;
-      border-right: 1px solid #2b2d31;
+
+    /* Custom Dofus RPG Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
     }
-    .sidebar-nav strong {
-      color: #949ba4;
-      text-transform: uppercase;
-      font-size: 0.75rem;
-      letter-spacing: 0.05em;
+    ::-webkit-scrollbar-track {
+      background: #0d0f14;
     }
-    .sidebar-nav a {
-      color: #dbdee1;
-      font-size: 0.95rem;
-      transition: color 0.15s ease;
-    }
-    .sidebar-nav a:hover {
-      color: #5865F2;
-    }
-    .sidebar-nav li.active > a {
-      color: #5865F2;
-      font-weight: 600;
-    }
-    .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4 {
-      color: #f2f3f5;
-    }
-    .markdown-section hr {
-      border: none;
-      border-top: 1px solid #2e3035;
-      margin: 2em 0;
-    }
-    .markdown-section table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1.5em 0;
-      background-color: #2b2d31;
-      border-radius: 6px;
-      overflow: hidden;
-    }
-    .markdown-section table th {
-      background-color: #232428;
-      color: #f2f3f5;
-      font-weight: bold;
-      border: 1px solid #35373c;
-      padding: 10px 14px;
-      text-align: left;
-    }
-    .markdown-section table td {
-      border: 1px solid #35373c;
-      padding: 10px 14px;
-      color: #dbdee1;
-    }
-    .markdown-section tr:nth-child(2n) {
-      background-color: #26282c;
-    }
-    .markdown-section tr:hover {
-      background-color: #313338;
-    }
-    .markdown-section code {
-      background-color: #2b2d31;
-      color: #00d26a;
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #c88f28, #6d4b14);
       border-radius: 4px;
-      padding: 2px 6px;
+      border: 1px solid rgba(245, 194, 66, 0.2);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(180deg, #f5c242, #9a691c);
+    }
+
+    body {
+      background-color: var(--dofus-bg-dark);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(245, 194, 66, 0.03) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(0, 229, 255, 0.02) 0%, transparent 40%),
+        linear-gradient(180deg, #0e1015 0%, #12151c 100%);
+      color: var(--dofus-text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    /* ---------------------------------------------------------
+       SIDEBAR / GRIMOIRE HUD
+       --------------------------------------------------------- */
+    .sidebar {
+      background: linear-gradient(180deg, #11131a 0%, #0c0e14 100%);
+      border-right: 1px solid var(--dofus-border);
+      box-shadow: 4px 0 25px rgba(0, 0, 0, 0.7);
+      color: var(--dofus-text-dim);
+      padding-top: 15px;
+    }
+
+    /* Brand Header in Sidebar */
+    .sidebar .app-name {
+      margin-bottom: 20px;
+    }
+    .sidebar .app-name-link {
+      font-family: 'Cinzel', serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 800 !important;
+      letter-spacing: 0.08em;
+      color: #ffd752 !important;
+      text-transform: uppercase;
+      text-shadow: 0 0 14px rgba(245, 194, 66, 0.5), 0 2px 4px #000;
+      display: block;
+      text-align: center;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--dofus-border-gold);
+      background: linear-gradient(90deg, transparent, rgba(245, 194, 66, 0.08), transparent);
+    }
+    .sidebar .app-name-link::after {
+      content: "✦ SERVIDOR FUN DUO 2.51 ✦";
+      display: block;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      color: #9aa0a6;
+      margin-top: 4px;
+      text-shadow: none;
+    }
+
+    /* Search Box */
+    .search {
+      padding: 12px 16px !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
     .search input {
-      background-color: #2b2d31 !important;
+      background: #181c26 !important;
       color: #ffffff !important;
-      border: 1px solid #35373c !important;
-      border-radius: 6px;
+      border: 1px solid #4a3e20 !important;
+      border-radius: 6px !important;
+      padding: 9px 14px !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.88rem !important;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+      transition: all 0.2s ease;
+    }
+    .search input:focus {
+      border-color: var(--dofus-gold) !important;
+      box-shadow: 0 0 12px var(--dofus-gold-glow), inset 0 2px 4px rgba(0,0,0,0.5) !important;
     }
     .search input::placeholder {
-      color: #949ba4;
+      color: #727885;
     }
+
+    /* Sidebar Navigation Items */
+    .sidebar-nav {
+      padding: 10px 14px 40px 14px;
+    }
+    .sidebar-nav > ul > li {
+      margin: 8px 0;
+    }
+    .sidebar-nav strong {
+      display: block;
+      font-family: 'Cinzel', serif;
+      color: #ffd257;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      margin: 18px 0 8px 6px;
+      text-transform: uppercase;
+      border-left: 2px solid var(--dofus-gold);
+      padding-left: 8px;
+      text-shadow: 0 0 8px rgba(245, 194, 66, 0.3);
+    }
+    .sidebar-nav a {
+      color: #b0b5c0;
+      font-size: 0.92rem;
+      padding: 6px 10px;
+      border-radius: 4px;
+      transition: all 0.15s ease;
+      display: block;
+    }
+    .sidebar-nav a:hover {
+      color: #ffd752;
+      background: rgba(245, 194, 66, 0.08);
+      transform: translateX(4px);
+    }
+    .sidebar-nav li.active > a {
+      color: #ffd752 !important;
+      font-weight: 700;
+      background: linear-gradient(90deg, rgba(245, 194, 66, 0.18) 0%, rgba(245, 194, 66, 0.02) 100%) !important;
+      border-left: 3px solid var(--dofus-gold);
+      padding-left: 12px;
+      text-shadow: 0 0 12px rgba(245, 194, 66, 0.5);
+    }
+
+    /* ---------------------------------------------------------
+       MAIN CONTENT AREA
+       --------------------------------------------------------- */
+    .content {
+      padding-top: 25px;
+    }
+    .markdown-section {
+      max-width: 900px;
+      padding: 30px 45px 80px 45px;
+    }
+
+    /* Headings */
+    .markdown-section h1 {
+      font-family: 'Cinzel', serif;
+      font-weight: 800;
+      font-size: 2.3rem;
+      color: #ffd752;
+      text-shadow: 0 0 20px rgba(245, 194, 66, 0.4), 0 3px 6px #000;
+      letter-spacing: 0.04em;
+      border-bottom: 2px solid var(--dofus-border-gold);
+      padding-bottom: 14px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+      position: relative;
+    }
+    .markdown-section h1::after {
+      content: "✦";
+      position: absolute;
+      right: 0;
+      bottom: -11px;
+      color: var(--dofus-gold);
+      background: var(--dofus-bg-dark);
+      padding: 0 8px;
+      font-size: 1rem;
+    }
+
+    .markdown-section h2 {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: #ffda73;
+      margin-top: 35px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(245, 194, 66, 0.25);
+      padding-bottom: 8px;
+      text-shadow: 0 0 12px rgba(245, 194, 66, 0.25);
+    }
+
+    .markdown-section h3 {
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 700;
+      font-size: 1.35rem;
+      color: #00e5ff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      text-shadow: 0 0 10px rgba(0, 229, 255, 0.25);
+    }
+
+    .markdown-section h4 {
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 600;
+      font-size: 1.15rem;
+      color: #ffca42;
+      margin-top: 20px;
+    }
+
+    /* Paragraphs & Links */
+    .markdown-section p, .markdown-section li {
+      color: #d1d5db;
+      font-size: 0.98rem;
+    }
+    .markdown-section strong {
+      color: #ffffff;
+      font-weight: 600;
+    }
+    .markdown-section a {
+      color: #ffd257;
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px dotted rgba(245, 194, 66, 0.6);
+      transition: all 0.15s ease;
+    }
+    .markdown-section a:hover {
+      color: #ffffff;
+      border-bottom: 1px solid #ffd257;
+      text-shadow: 0 0 8px rgba(245, 194, 66, 0.6);
+    }
+
+    /* Dividers */
+    .markdown-section hr {
+      border: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(245, 194, 66, 0.4), transparent);
+      margin: 35px 0;
+    }
+
+    /* ---------------------------------------------------------
+       DOFUS QUEST BOXES & CALLOUTS (Blockquotes)
+       --------------------------------------------------------- */
     .markdown-section blockquote {
-      border-left: 4px solid #5865F2;
-      background-color: #232428;
-      color: #dbdee1;
-      padding: 12px 18px;
-      margin: 1.5em 0;
-      border-radius: 0 6px 6px 0;
+      background: linear-gradient(135deg, rgba(35, 27, 14, 0.7) 0%, rgba(20, 24, 32, 0.85) 100%);
+      border-left: 4px solid var(--dofus-gold);
+      border-top: 1px solid rgba(245, 194, 66, 0.2);
+      border-right: 1px solid rgba(245, 194, 66, 0.15);
+      border-bottom: 1px solid rgba(245, 194, 66, 0.15);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 22px;
+      margin: 22px 0;
+      color: #e5e7eb;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4), inset 0 0 15px rgba(245, 194, 66, 0.04);
+    }
+    .markdown-section blockquote p {
+      margin: 0;
+      font-size: 0.96rem;
+    }
+
+    /* ---------------------------------------------------------
+       DOFUS STAT TABLES
+       --------------------------------------------------------- */
+    .markdown-section table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 24px 0;
+      background: var(--dofus-bg-card);
+      border: 1px solid rgba(245, 194, 66, 0.35);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+    .markdown-section table th {
+      background: linear-gradient(180deg, #2e2311 0%, #1e170c 100%);
+      color: #ffd752;
+      font-family: 'Cinzel', serif;
+      font-size: 0.92rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 13px 18px;
+      border-bottom: 2px solid rgba(245, 194, 66, 0.5);
+      border-right: 1px solid rgba(245, 194, 66, 0.15);
+      text-align: left;
+      text-shadow: 0 1px 2px #000;
+    }
+    .markdown-section table th:last-child {
+      border-right: none;
+    }
+    .markdown-section table td {
+      padding: 13px 18px;
+      border-bottom: 1px solid #282d38;
+      border-right: 1px solid #232732;
+      color: #d1d5db;
+      font-size: 0.95rem;
+    }
+    .markdown-section table td:last-child {
+      border-right: none;
+    }
+    .markdown-section table tr:last-child td {
+      border-bottom: none;
+    }
+    .markdown-section table tr:nth-child(even) {
+      background: rgba(18, 21, 28, 0.8);
+    }
+    .markdown-section table tr:hover {
+      background: rgba(245, 194, 66, 0.08);
+    }
+
+    /* Code & In-Game Command Styling */
+    .markdown-section code {
+      background: #141720;
+      color: #00e5ff;
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.88rem;
+    }
+    .markdown-section pre[data-lang] {
+      background: #10131a !important;
+      border: 1px solid #2a3140 !important;
+      border-radius: 8px !important;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    }
+
+    /* Images */
+    .markdown-section img {
+      border-radius: 8px;
+      border: 1px solid rgba(245, 194, 66, 0.3);
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 18px auto;
+    }
+    .markdown-section img:hover {
+      transform: scale(1.01);
+      box-shadow: 0 8px 30px rgba(245, 194, 66, 0.2);
+    }
+
+    /* Lists */
+    .markdown-section ul {
+      padding-left: 22px;
+    }
+    .markdown-section li {
+      margin: 6px 0;
+    }
+    .markdown-section li::marker {
+      color: var(--dofus-gold);
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      .markdown-section {
+        padding: 20px 20px 60px 20px;
+      }
+      .markdown-section h1 {
+        font-size: 1.8rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div id="app">Cargando Artemis Wiki...</div>
+  <div id="app">⚔️ Cargando Artemis Dofus Wiki...</div>
   <script>
     window.$docsify = {
-      name: '🌙 Artemis Wiki',
+      name: '⚔️ ARTEMIS DOFUS',
       repo: 'https://github.com/dnkjs/Artemis-Wiki',
       loadSidebar: true,
       alias: {
@@ -114,8 +410,8 @@
       homepage: 'presentacion.md',
       auto2top: true,
       search: {
-        placeholder: 'Buscar en la wiki...',
-        noData: 'Sin resultados',
+        placeholder: '🔍 Buscar objetos, mazmorras, reliquias...',
+        noData: '❌ Sin resultados en la enciclopedia',
         depth: 3
       }
     };

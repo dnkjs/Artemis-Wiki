@@ -58,7 +58,7 @@ Para empezar a subir este oficio deberán contar con algunos requisitos:
 
 * Tener Todos los Oficios al Nivel Máximo es decir 200.
 * Deberán Tener las 5 Reliquias de Oficio Raras.
-* Maguear el arma con la **Runa de Caza**, esta la podrán encontrar en la Tienda de Astral'Jobs (Funciona en cualquier arma).
+* Maguear el arma con la **Runa de Caza**, esta la podrán encontrar en la Tienda de Artemis'Jobs (Funciona en cualquier arma).
 
 **IMPORTANTE:** En la misma tienda de Jobs podrán encontrar el **Cuchillo de Caza** este les da como beneficio obtener x2 en XP & Recursos del oficio cazador.
 
@@ -79,7 +79,7 @@ Las armas específicas de cada profesión se pueden obtener al obtenerlas. Cada 
 Llevar alguna de estas armas cuando se esta realizando el oficio trae algunos beneficios consigo
 
 * Cosecha de recursos x2.
-* Drop de Astral'Job x2.
+* Drop de Artemis'Job x2.
 * 20% más de bonus de subida en stats en la reliquia.
 
 <figure><img src="../../.gitbook/assets/image_21.png" alt=""><figcaption></figcaption></figure>

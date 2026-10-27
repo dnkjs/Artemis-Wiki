@@ -32,7 +32,7 @@ El modo Tiempo ofrece un aumento moderado en la dificultad.
 
 **🎁 Recursos Ganados:**&#x20;
 
-* Astral'Temp.
+* Artemis'Temp.
 * Recursos de mazmorra (Para mejora Reliquia Hc)
 * 1 recurso decombate : para jugadores en modo normal.
 * 2 recursos de combate : para Vip.
@@ -40,9 +40,9 @@ El modo Tiempo ofrece un aumento moderado en la dificultad.
 
 <sub><mark style="color:red;">Nota: Aumento del daño de las reliquias hardcore deben contar con todas las reliquias para que empiece a sumar, además este modo te permite realizar la mejoras 2 de la Reliquia de Hardcore.<mark style="color:red;"></sub>
 
-### ☠️ Modo Astral'Hard
+### ☠️ Modo Artemis'Hard
 
-El modo Astral'Hard es el modo definitivo para los jugadores que buscan maximizar su experiencia y sus recompensas, con una dificultad muy alta.
+El modo Artemis'Hard es el modo definitivo para los jugadores que buscan maximizar su experiencia y sus recompensas, con una dificultad muy alta.
 
 🎫 **Bono:**
 
@@ -50,7 +50,7 @@ El modo Astral'Hard es el modo definitivo para los jugadores que buscan maximiza
 
 **🎁 Recursos Ganados:**&#x20;
 
-* Astral'Ton III.
+* Artemis'Ton III.
 * 1 recurso de combate : para jugadores en modo normal.
 * 2 recursos de combate : para Vip.
 * 3 recursos de combate : para Premium.
@@ -59,7 +59,7 @@ El modo Astral'Hard es el modo definitivo para los jugadores que buscan maximiza
 
 ### 🎯 **Conclusión**
 
-Los modos de Astral ofrecen a los aventureros la oportunidad de demostrar su valía enfrentándose a desafíos a la altura de sus habilidades. Cada modo ofrece bonificaciones de experiencia y recursos únicos, esenciales para obtener y mejorar las reliquias más poderosas del servidor. En particular, el modo Hardcore también permite comprar cada reliquia de mazmorra con los recursos Hardcore obtenidos, lo que añade un toque estratégico a tus batallas.
+Los modos de Artemis ofrecen a los aventureros la oportunidad de demostrar su valía enfrentándose a desafíos a la altura de sus habilidades. Cada modo ofrece bonificaciones de experiencia y recursos únicos, esenciales para obtener y mejorar las reliquias más poderosas del servidor. En particular, el modo Hardcore también permite comprar cada reliquia de mazmorra con los recursos Hardcore obtenidos, lo que añade un toque estratégico a tus batallas.
 
 Para más información sobre las reliquias y cómo mejorarlas, consulta la sección dedicada de nuestra guía.
 

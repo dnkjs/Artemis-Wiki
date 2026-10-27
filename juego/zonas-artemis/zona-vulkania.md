@@ -16,17 +16,17 @@ Esta zona ofrece oportunidades de mejora y recompensas únicas, ideal para jugad
 
 * Al enfrentarte a los monstruos de **Vulkania**, cada victoria aumenta tu **scroll** del elemento correspondiente.
 * Esto te permite **especializar tus estadísticas** según los monstruos que encuentres.
-* Astral'Vulka puede obtenerse **como botín** de todos los monstruos de la isla.
+* Artemis'Vulka puede obtenerse **como botín** de todos los monstruos de la isla.
 
 #### 💥 Scrolls Por Batallas En Zonas Vulkania
 
 Para que estas características sean añadidas a tu scroll debes contar con los scrolls completos hasta el momento del servidor, es decir tener:
 
-* ✅ Scroll Astral'Ton.
-* ✅ Scroll Astral'Job.
-* ✅ Scroll Astral'Temp.
-* ✅ Scroll Astral'Evo.
-* ✅ Scroll Astral'Sueños.
+* ✅ Scroll Artemis'Ton.
+* ✅ Scroll Artemis'Job.
+* ✅ Scroll Artemis'Temp.
+* ✅ Scroll Artemis'Evo.
+* ✅ Scroll Artemis'Sueños.
 
 Estos scrolls completos suman 250.000 de scroll a todos los elementos (Vitalidad, Agilidad, Inteligencia, Fuerza & Suerte)
 
@@ -84,8 +84,8 @@ A continuación se dejará los scroll por mob que deberian ir subiendo en orden 
 
 Posibles recompensas:
 
-* Astral'ton.
-* Astral'Vulka.
+* Artemis'ton.
+* Artemis'Vulka.
 * Vulka'Event.
 
 ### 🎯 Conclusión

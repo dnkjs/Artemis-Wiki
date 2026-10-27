@@ -1,17 +1,17 @@
 # Loteria Artemis
 
-En el servidor, puedes participar en **sorteos especiales** ubicados en el mapa **"Zona NPC"** . Estos sorteos ofrecen **recompensas raras y exclusivas** a cambio de Astral'Tons o Fichas de casino.
+En el servidor, puedes participar en **sorteos especiales** ubicados en el mapa **"Zona NPC"** . Estos sorteos ofrecen **recompensas raras y exclusivas** a cambio de Artemis'Tons o Fichas de casino.
 
-### 🎟️ 1. Lotería Astral'Tons
+### 🎟️ 1. Lotería Artemis'Tons
 
 #### 💡 ¿Cómo funciona?
 
-* Accesible gastando **Astral'Tons**.
+* Accesible gastando **Artemis'Tons**.
 * Existen varias opciones de apuestas disponibles:
 
-  * 🎲 **x1 vez 700K Astral'Ton.**
-  * 🎲 **x10 veces 7M Astral'Ton.**
-  * 🎲 **x50 veces 35M Astral'Ton.**
+  * 🎲 **x1 vez 700K Artemis'Ton.**
+  * 🎲 **x10 veces 7M Artemis'Ton.**
+  * 🎲 **x50 veces 35M Artemis'Ton.**
 
 #### 🎁 Posibles recompensas
 
@@ -22,7 +22,7 @@ En el servidor, puedes participar en **sorteos especiales** ubicados en el mapa 
 * 🥚 Dofus Iniciales.
 * ⚡Bonificaciones.
 * 🧪Pócimas de cambio de color y raza.
-* 💰 Astral’Ton como retorno controlado.
+* 💰 Artemis’Ton como retorno controlado.
 
 <sub><mark style="color:red;">PD: La imagen es la referencia del trofeo que se gana en esta ruleta.<mark style="color:red;"></sub>
 
@@ -38,7 +38,7 @@ En el servidor, puedes participar en **sorteos especiales** ubicados en el mapa 
 #### 🎁 Recompensas disponibles
 
 * ❌ Nada.
-* 💰 Astral'Tons.
+* 💰 Artemis'Tons.
 * 🥚 Dofus II.
 * 👑 Título y ornamento exclusivos de Casino.
 * 🏆 Mejora de Trofeo Ruleta.

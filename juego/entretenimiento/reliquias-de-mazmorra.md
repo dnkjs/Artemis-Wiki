@@ -4,7 +4,7 @@ Esta guía detalla las reliquias disponibles en el juego, sus estadísticas y lo
 
 * Hardcore
 * Temporal
-* Astral'Hard
+* Artemis'Hard
 
 Cada modo ofrece pasos específicos para maximizar el poder de las reliquias y permitir una progresión óptima.
 
@@ -13,14 +13,14 @@ Cada modo ofrece pasos específicos para maximizar el poder de las reliquias y p
 Las reliquias se obtienen primero en el modo Hardcore . Una vez adquiridas, se pueden mejorar en los siguientes modos:
 
 * **Modo Temporal:** Las reliquias obtienen un multiplicador x5 en las estadísticas generales, x2 en Potencia Prospección y en Daño.
-* **Modo Astral'Hard:** las reliquias alcanzan su máximo potencial con un multiplicador x2 en las estadísticas Temporales.
+* **Modo Artemis'Hard:** las reliquias alcanzan su máximo potencial con un multiplicador x2 en las estadísticas Temporales.
 
 ### 🎳 ¿Como Adquirir y Entrar en Alguno de los Modos?
 
-Podrás encontrar la zona Temporal y Astral'Hard en el Custom Panel, apartado *Esencial*
+Podrás encontrar la zona Temporal y Artemis'Hard en el Custom Panel, apartado *Esencial*
 
 * **Para entrar en Modo Temporal:** Necesitarás tener todas las Reliquias Hardcore, y un mínimo de 8.400.000 de estadísticas.
-* **Para el Modo Astral'Hard:** Aún esta siendo trabajada por lo cual no podrás ingresar momentaneamente, esperamos tener pronto disponible esta zona.
+* **Para el Modo Artemis'Hard:** Aún esta siendo trabajada por lo cual no podrás ingresar momentaneamente, esperamos tener pronto disponible esta zona.
 
 ### 👹 Modo Hardcore
 
@@ -51,7 +51,7 @@ Esta reliquia se puede mejorar hasta 3 niveles . Estos son los requisitos para c
 
 * **Nivel 1 de fabricación y mejora:** Requiere recursos obtenidos en el modo Hardcore (x45 de cada mazmorra).
 * **Mejoras de nivel 2:** Requiere recursos obtenidos en el modo Temporal (45 recursos x mazmorra).
-* **Mejoras de nivel 3:** Requiere recursos obtenidos en el modo Astral'Hard (45 recursos x mazmorra).
+* **Mejoras de nivel 3:** Requiere recursos obtenidos en el modo Artemis'Hard (45 recursos x mazmorra).
 
 ¡Buena suerte en tu búsqueda para obtener y mejorar esta reliquia legendaria!
 
@@ -82,19 +82,19 @@ Además de tener que mejorar tus reliquias de mazmorra, tendrás una reliquia pa
 
 <figure><img src="../../.gitbook/assets/image_37.png" alt=""><figcaption></figcaption></figure>
 
-### 🎢 Modo Astral'Hard
+### 🎢 Modo Artemis'Hard
 
-El recurso obtenido en la zona astral'hard es fundamental para la compra de:
+El recurso obtenido en la zona artemis'hard es fundamental para la compra de:
 
 * Scroll de la zona.
 * Runas para aumentar el daño a sus equipamentos.
 * Completar el nivel máximo de la Reliquia Hardcore.
 
-Por lo tanto, el modo Astral'Hard es un paso esencial para los jugadores que buscan maximizar su poder mientras enfrentan desafíos de alto nivel.
+Por lo tanto, el modo Artemis'Hard es un paso esencial para los jugadores que buscan maximizar su poder mientras enfrentan desafíos de alto nivel.
 
 :x: **AÚN NO ESTA HABILITADA ESTA ZONA** :x:
 
-Aquí dejo, las características de las reliquias de mazmorra, allí pueden modificar si las tienen o no y este les contará el total en el apartado de características, esta opción funciona solo con las reliquias hardcore, no temporal ni astralhard.
+Aquí dejo, las características de las reliquias de mazmorra, allí pueden modificar si las tienen o no y este les contará el total en el apartado de características, esta opción funciona solo con las reliquias hardcore, no temporal ni artemishard.
 
 👉 [Reliquias De Mazmorra](https://www.mediafire.com/file/twh0mgly4e6tltt/Reliquias+Mazmorras.xlsx/file)
 

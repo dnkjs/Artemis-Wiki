@@ -19,9 +19,9 @@
 
 * 🎯 Objetivo: **adquirir Insignias rápidamente**.
 
-#### 💎 2. Mazmorra de Astral'Ton
+#### 💎 2. Mazmorra de Artemis'Ton
 
-* 🎯 Objetivo: **obtener fichas de Astral'ton.**
+* 🎯 Objetivo: **obtener fichas de Artemis'ton.**
 
 #### 🌀 3. Mazmorra de Ogrinas
 

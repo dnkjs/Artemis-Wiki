@@ -1,12 +1,12 @@
-# Astral'Farm Universal
+# Artemis'Farm Universal
 
-La **Reliquia Astral'Farm** es una de las reliquias más poderosas de Artemis. Evoluciona al derrotar **a los jefes dimensionales** y sus variantes (Normal, Mega, Giga, Tera). Esta guía explica cómo progresar, los requisitos de acceso a las diferentes mazmorras y las mecánicas especiales que debes dominar.
+La **Reliquia Artemis'Farm** es una de las reliquias más poderosas de Artemis. Evoluciona al derrotar **a los jefes dimensionales** y sus variantes (Normal, Mega, Giga, Tera). Esta guía explica cómo progresar, los requisitos de acceso a las diferentes mazmorras y las mecánicas especiales que debes dominar.
 
 ---
 
 ### ⚙️ 1. Características de la reliquia
 
-Las estadísticas de la Reliquia Astral'Farm Universal provienen de los **jefes dimensionales** :
+Las estadísticas de la Reliquia Artemis'Farm Universal provienen de los **jefes dimensionales** :
 
 * **Inteligencia 🔥**: Se adquiere a través del Vórtex.
 * **Agilidad 🍃**: Se adquiere a través de la Reina de los Ladrones.
@@ -69,7 +69,7 @@ Las batallas contra los jefes dimensionales se desarrollan a lo largo de **5 ole
 
 ---
 
-### ⚠️ 6. Condiciones Para La Mejora de Astral'Farm
+### ⚠️ 6. Condiciones Para La Mejora de Artemis'Farm
 
 Para mejorar tus estadísticas en esta reliquia, debes alcanzar el máximo de estadísticas anteriores. Sin estas condiciones, no podrás progresar con tu reliquia en estas mazmorras.
 

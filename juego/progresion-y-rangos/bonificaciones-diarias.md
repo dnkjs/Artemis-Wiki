@@ -8,15 +8,15 @@ Todos los días de la semana, Artemis te ofrece una bonificación única para im
 
 🍀 **+25% de probabilidad** **de obtención en todos los Tokens** :
 
-* &#x20;Astral'Ton.
-* Astral'Temp.
-* Astral''Hard.
+* &#x20;Artemis'Ton.
+* Artemis'Temp.
+* Artemis''Hard.
 
 #### 📌 Martes
 
 * 🛠️ Se aplica una bonificación del 25% a los recursos y fichas de comercio.
 * 📈 EXP x2 para tu personaje.
-* 🌾los recursos recolectados y los Astral'Jobs también se benefician de esta bonificación.
+* 🌾los recursos recolectados y los Artemis'Jobs también se benefician de esta bonificación.
 
 #### 📌 Miércoles
 

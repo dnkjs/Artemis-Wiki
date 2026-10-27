@@ -70,7 +70,7 @@ Más progreso, mejores stats y ventaja acumulativa con el tiempo
 #### :fire: **¿Qué hace la reliquia de la w?**
 
 * +30% recursos obtenidos al recolectar oficios.
-* +30% de Astral'Job.
+* +30% de Artemis'Job.
 * +30% XP de oficios.
 * +30% progreso de reliquias de oficio.
 

@@ -1,6 +1,6 @@
-# 🎲 Astral'Farm Universal — Guía Completa de Artemis
+# 🎲 Artemis'Farm Universal — Guía Completa de Artemis
 
-La **Reliquia Astral'Farm Universal** (o *Reliquia de Farm'Univers*) es una de las reliquias más poderosas de Artemis. Evoluciona a medida que derrotas a los **jefes dimensionales** y superas sus distintas variantes de dificultad: **Normal**, **Mega**, **Giga** y **Tera**.
+La **Reliquia Artemis'Farm Universal** (o *Reliquia de Farm'Univers*) es una de las reliquias más poderosas de Artemis. Evoluciona a medida que derrotas a los **jefes dimensionales** y superas sus distintas variantes de dificultad: **Normal**, **Mega**, **Giga** y **Tera**.
 
 Esta guía detalla el sistema de progresión, las estadísticas que otorga cada jefe, las condiciones de acceso y las mecánicas clave para retirar la invulnerabilidad de los bosses.
 
@@ -72,7 +72,7 @@ En las dificultades **Mega** y **Giga**, los jefes cuentan con un estado de **In
 
 ## 🔱 5. Reliquias de Megamazmorras
 
-* Al superar las mazmorras dimensionales, no solo progresa la Reliquia Astral'Farm Universal, sino también las **Reliquias de Megamazmorras**.
+* Al superar las mazmorras dimensionales, no solo progresa la Reliquia Artemis'Farm Universal, sino también las **Reliquias de Megamazmorras**.
 * Existen **4 reliquias de Megamazmorras** que se van mejorando y se maximizan tras completar un número determinado de veces cada Megamazmorra respectiva.
 
 ![Reliquias de Megamazmorras](./image1.png)
@@ -101,7 +101,7 @@ Para acceder a las salas de cada mazmorra dimensional avanzada, tu personaje deb
 
 ## 🎯 Conclusión y Ruta de Progresión
 
-La Reliquia Astral'Farm Universal constituye uno de los mayores proyectos de optimización del personaje:
+La Reliquia Artemis'Farm Universal constituye uno de los mayores proyectos de optimización del personaje:
 
 1. **Normal:** Inicio de progresión y base de la reliquia.
 2. **Mega:** Fortalecimiento del personaje y desbloqueo de las reliquias secundarias.

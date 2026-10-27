@@ -11,7 +11,7 @@ Optimiza tus profesiones de recolección y artesanía con estas bonificaciones:
 | 🔧 Boost | 🎉 Efecto |
 | :--- | :--- |
 | **🌾 Doble cosecha** | Cosecha x2 recursos con cada recolección |
-| **💰 Jobs dobles de Artemis** | Obtén x2 fichas de Astral'Job |
+| **💰 Jobs dobles de Artemis** | Obtén x2 fichas de Artemis'Job |
 | **📈 Experiencia duplicada** | XP x2 con cada cosecha |
 | **💎 +20% de reliquias obtenibles** | Aumenta tu rendimiento al cultivar reliquias |
 
@@ -24,7 +24,7 @@ Acelera tu progreso y mejora tus posibilidades de obtener botín:
 | 🚀 Boost | 🎉 Efecto |
 | :--- | :--- |
 | **📈 Doble XP** | Progresar el doble de rápido |
-| **💰 +50% Astral'Ton** | Gana más del 50% de Astral'Ton |
+| **💰 +50% Artemis'Ton** | Gana más del 50% de Artemis'Ton |
 | **🍀 +50% de probabilidad de caída** | +50% de probabilidad de obtener objetos raros |
 | **🔮 +20% de obtención de objetos** | Mejora la recolección de Reliquias de Guarida, Farm'Universe y Reliquias de Rango |
 | **👹 AutoCombat x30 Minutos** | Disfruta de batallas más ágiles |
