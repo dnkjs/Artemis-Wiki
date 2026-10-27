@@ -1,44 +1,67 @@
 # Auto Combate
 
-El Combate Automático en **ARTEMIS** es un sistema único que te permite delegar tus batallas a una poderosa IA . Una vez activado, esta función toma el control de tu personaje y usa tus hechizos para combatir a los enemigos por ti. Aquí tienes todo lo que necesitas saber para sacarle el máximo provecho al Combate Automático.
-
-### ⚡ Activación
-
-El Combate Automático se activa mediante un comando específico, **.autocombat**, para desactivarlo deben volver a usar el mismo comando.
-
-<sub><mark style="color:red;">Nota: Una vez activado, la IA no se puede desactivar durante el combate.<mark style="color:red;"></sub>
-
-### 🔮 Uso de Hechizos
-
-* La IA utiliza todos los hechizos colocados en tus barras de hechizos , pero ella sola determina el orden y la lógica de las acciones.
-* No es posible definir o controlar un orden preciso para los hechizos.
-* Dado que la IA se basa en los monstruos del juego, es posible que no siempre responda exactamente a tus expectativas y puede comportarse de manera inesperada en determinadas situaciones
-
-### ♨️ Optimización del Autocombate
-
-* **Organizar barras de hechizos:** Asegúrate de colocar únicamente los hechizos que quieres usar en tus barras.
-* **Para clases específicas:** Si juegas con Yopuka o Sacro , se recomienda colocar su hechizo que lo hace No Placable para evitar inconvenientes como ser bloqueado en combate cuerpo a cuerpo por los enemigos.
-* **Precaución y pruebas:** Antes de usar Auto Combat en peleas cruciales, prueba su efectividad en peleas menos importantes para familiarizarte con su comportamiento.
-
-### 🕛 Tiempo del Autocombat
-
-Dependiendo de tu rango, te beneficiarás de un tiempo de combate automático establecido cada día.
-
-* **RANGO VIP:** Tiempo x día de 20 minutos.
-* **RANGO PREMIUM:** Tiempo x día de 30 minutos.
-* **BOOST AUTOCOMBAT:** Funciona x 30 minutos
-
-Para comprobar el tiempo restante de combate automático, utiliza el comando:
-
-* .autocombatinfo
-
-<sub><mark style="color:red;">**Nota:**<mark style="color:red;"></sub> <sub><mark style="color:red;"> </sub><sub><mark style="color:red;">Reinicio diario<mark style="color:red;"></sub> <sub><mark style="color:red;">todos los días, durante el reinicio automático a las 00h , se reinicia el tiempo de Combate Automático.<mark style="color:red;"></sub>
-
-### 🎯 **Conclusión**
-
-* El combate automático es una herramienta poderosa, pero imperfecta, ya que depende de una IA que puede comportarse de forma aleatoria.
-* Esta es una excelente manera de automatizar peleas repetitivas o de bajo nivel.
-* Asegúrate de optimizar tus barras de hechizos y monitorear tu tiempo de combate automático disponible para disfrutar de una experiencia fluida y eficiente.
-
+El **Combate Automático** en **Artemis Dofus 2.51** es un sistema inteligente que permite delegar el control de tus batallas a la IA del servidor. La IA ejecutará tus hechizos y movimientos automáticamente para optimizar y agilizar tus sesiones de farmeo.
 
 ---
+
+## ⚡ Comandos del Sistema
+
+En Artemis, dispones de dos comandos dedicados en el chat:
+
+<div class="cmd-box">
+  <div class="cmd-name">.autocombat</div>
+  <p>Activa o desactiva el combate automático del personaje. Al activarlo, el personaje también activa automáticamente el modo de <strong>preparación rápida en SOLO (ready solo)</strong> para comenzar las batallas de inmediato sin demoras.</p>
+</div>
+
+<div class="cmd-box">
+  <div class="cmd-name">.autocombatinfo</div>
+  <p>Consulta en tiempo real la cantidad de tiempo restante que tienes disponible para el día actual. El servidor te responderá en el chat con el formato exacto: <code>Te quedan Xh Ym Zs de uso del combate automático.</code></p>
+</div>
+
+> [!IMPORTANT]
+> Debes estar **fuera de combate** para activar o desactivar `.autocombat`. Si intentas ejecutarlo durante una pelea, el servidor te indicará: *«Debes estar fuera de combate para activar o desactivar el combate automático.»*
+
+---
+
+## 🕛 Tiempos Disponibles por Rango
+
+El límite diario de combate automático depende directamente del rango de tu cuenta:
+
+| Rango de Cuenta | ⏳ Tiempo Diario Disponible | 🎯 Acceso al Comando |
+| :--- | :---: | :---: |
+| **Común (Jugador Base)** | `0 Minutos` | ❌ Requiere rango VIP 1 o superior |
+| **MINI VIP (VIP 1)** | **`30 Minutos`** | ✅ Habilitado |
+| **Rango VIP** | **`1h 30m` (90 Minutos)** | ✅ Habilitado |
+| **RANGO PREMIUM** | **`3 Horas` (180 Minutos)** | ✅ Habilitado |
+| **Rangos Superiores / ACI** | **`24 Horas` (Ilimitado)** | ✅ Habilitado |
+
+> [!TIP]
+> **¡Solo se descuenta el tiempo real de batalla!**
+> A diferencia de otros servidores donde el temporizador corre de forma continua aunque estés quieto, en Artemis el tiempo **únicamente se descuenta durante la duración neta de tus combates**. Si caminas por el mapa, chateas o estás fuera de batalla, tu tiempo permanece intacto.
+
+### 🔄 Reinicio Diario
+El contador se reinicia automáticamente **cada nuevo día con tu primer inicio de sesión**. Al conectar en un nuevo día, recibirás el mensaje verde del servidor:
+`«El contador de uso del combate automático se ha reiniciado.»`
+
+---
+
+## 🚫 Restricciones y Desactivación Automática
+
+Por equilibrio del juego, el combate automático se desactiva de forma automática en los siguientes escenarios especiales:
+
+* ⚔️ **Combates PvP:** Prohibido en cualquier combate entre jugadores y en la sub-área 877 (*«El combate automático se ha desactivado porque no está permitido en combates PvP.»*).
+* 👾 **Monstruos de Evento o Nani:** Desactivado de inmediato si en el mapa se encuentra un monstruo de evento o Nani (*«El combate automático se ha desactivado porque hay monstruos de evento en el mapa.»*).
+* 👥 **Modo Multicuenta (.join):** No puedes usar combate automático mientras seas el líder de grupo con `.join` (*«No puedes utilizar el combate automático mientras estés en '.join'. Se ha desactivado.»*).
+* 🌊 **Mazmorras de Oleadas:** Mapas con sistema de olas infinitas o wave spawns.
+* 📍 **Mapas Protegidos:** Mapas y sub-áreas restringidas del servidor (*«El combate automático se ha desactivado porque no está permitido en este mapa.»*).
+* ⏱️ **Límite Diario Agotado:** Al alcanzar tu tiempo diario (*«Has alcanzado el límite diario de uso del combate automático para tu rango.»*).
+
+---
+
+## 🔮 Lógica de Hechizos y Optimización
+
+Para exprimir al máximo la IA de combate, ten en cuenta estas recomendaciones clave:
+
+1. **Limpia tus barras de hechizos:** La IA selecciona hechizos basados en los que tengas colocados en tu barra activa. Quita los hechizos que no quieras que lance (como invocaciones innecesarias o hechizos de posicionamiento perjudiciales).
+2. **Clases Cuerpo a Cuerpo (Yopuka, Sacrógrito):** Si juegas con clases de contacto, lleva equipado un hechizo de desbloqueo o que otorgue el estado No Placable para evitar que la IA quede inmovilizada contra varios enemigos.
+3. **Prueba previa:** Antes de dejar a tu personaje contra grupos difíciles o jefes, realiza una pelea de prueba contra monstruos menores para conocer la prioridad de lanzamiento de la IA con tu build actual.

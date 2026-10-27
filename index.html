@@ -15,8 +15,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   
-  <!-- Docsify Theme Base -->
+  <!-- Docsify Theme Base & Plugins -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css">
 
   <style>
     /* =========================================================
@@ -388,8 +389,84 @@
       box-shadow: 0 6px 25px rgba(0,0,0,0.6);
     }
 
-    /* Images */
-    .markdown-section img {
+    /* ---------------------------------------------------------
+       SIDEBAR ACCORDION / COLLAPSIBLE CATEGORIES (GITBOOK STYLE)
+       --------------------------------------------------------- */
+    /* Remove default left arrow from sidebar-collapse */
+    .sidebar-nav ul:not(.app-sub-sidebar) > li:not(.file)::before {
+      display: none !important;
+    }
+
+    /* Folders have a sleek right-side arrow */
+    .sidebar-nav li.folder > a,
+    .sidebar-nav li.folder > strong {
+      position: relative;
+      padding-right: 30px !important;
+      cursor: pointer;
+    }
+    .sidebar-nav li.folder > a::after,
+    .sidebar-nav li.folder > strong::after {
+      content: "";
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      width: 6px;
+      height: 6px;
+      border-right: 2px solid var(--artemis-cyan);
+      border-bottom: 2px solid var(--artemis-cyan);
+      transform: translateY(-50%) rotate(-45deg);
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s ease;
+      opacity: 0.8;
+    }
+    .sidebar-nav li.folder:hover > a::after,
+    .sidebar-nav li.folder:hover > strong::after {
+      opacity: 1;
+      border-color: #ffffff;
+      box-shadow: 1px 1px 6px rgba(0, 229, 255, 0.6);
+    }
+    .sidebar-nav li.folder.open > a::after,
+    .sidebar-nav li.folder.open > strong::after {
+      transform: translateY(-50%) rotate(45deg);
+    }
+    .sidebar-nav li.folder.collapse > a::after,
+    .sidebar-nav li.folder.collapse > strong::after {
+      transform: translateY(-50%) rotate(-45deg);
+    }
+
+    /* Sub-menus nesting & indentation */
+    .sidebar-nav li.folder > ul {
+      padding-left: 10px !important;
+      margin: 4px 0 8px 6px !important;
+      border-left: 1px dashed rgba(56, 189, 248, 0.25);
+    }
+    .sidebar-nav li.file a {
+      font-size: 0.88rem !important;
+      padding: 6px 10px !important;
+      color: #94a3b8 !important;
+      border-radius: 4px;
+    }
+    .sidebar-nav li.file a:hover {
+      color: #ffffff !important;
+      background: rgba(0, 229, 255, 0.1) !important;
+      transform: translateX(4px);
+    }
+
+    /* Images & Emoji Fix */
+    .markdown-section img.emoji {
+      display: inline-block !important;
+      vertical-align: -0.22em !important;
+      width: 1.25em !important;
+      height: 1.25em !important;
+      min-width: 1.25em !important;
+      min-height: 1.25em !important;
+      margin: 0 4px !important;
+      padding: 0 !important;
+      border: none !important;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+    }
+    .markdown-section img:not(.emoji) {
       border-radius: 8px;
       border: 1px solid rgba(56, 189, 248, 0.35);
       box-shadow: 0 8px 30px rgba(0, 162, 255, 0.25);
@@ -397,11 +474,205 @@
       max-width: 100%;
       height: auto;
       display: block;
-      margin: 20px auto;
+      margin: 22px auto;
     }
-    .markdown-section img:hover {
+    .markdown-section img:not(.emoji):hover {
       transform: scale(1.015);
       box-shadow: 0 10px 40px rgba(0, 229, 255, 0.4);
+    }
+
+    /* ---------------------------------------------------------
+       RPG CATEGORY HUB GRID & CARDS
+       --------------------------------------------------------- */
+    .rpg-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 18px;
+      margin: 28px 0 40px 0;
+    }
+    .rpg-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: linear-gradient(145deg, #0e1524 0%, #080c16 100%);
+      border: 1px solid rgba(56, 189, 248, 0.22);
+      border-radius: 10px;
+      padding: 20px 22px;
+      text-decoration: none !important;
+      color: var(--artemis-text) !important;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+    .rpg-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--artemis-cyan), transparent);
+      opacity: 0.4;
+      transition: opacity 0.25s ease;
+    }
+    .rpg-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--artemis-cyan);
+      box-shadow: 0 10px 32px rgba(0, 229, 255, 0.25), 0 0 16px rgba(0, 229, 255, 0.15);
+      background: linear-gradient(145deg, #121c2e 0%, #0b111e 100%);
+    }
+    .rpg-card:hover::before {
+      opacity: 1;
+    }
+    .rpg-card-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      align-self: flex-start;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--artemis-cyan);
+      background: rgba(0, 229, 255, 0.1);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      border-radius: 4px;
+      padding: 3px 8px;
+      margin-bottom: 12px;
+    }
+    .rpg-card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+      text-shadow: 0 0 12px rgba(0, 229, 255, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .rpg-card-desc {
+      font-size: 0.88rem;
+      color: #94a3b8;
+      line-height: 1.55;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+    .rpg-card-action {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--artemis-blue);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      text-transform: uppercase;
+      transition: gap 0.2s ease, color 0.2s ease;
+      border-top: 1px solid rgba(56, 189, 248, 0.12);
+      padding-top: 10px;
+    }
+    .rpg-card:hover .rpg-card-action {
+      color: var(--artemis-cyan);
+      gap: 10px;
+    }
+
+    /* ---------------------------------------------------------
+       RPG RELIC SHOWCASE BOX
+       --------------------------------------------------------- */
+    .relic-box {
+      background: linear-gradient(145deg, #0f1627 0%, #080c14 100%);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 28px 0;
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(0, 229, 255, 0.03);
+    }
+    .relic-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .relic-title-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .relic-icon-pill {
+      font-size: 1.6rem;
+      background: rgba(0, 229, 255, 0.1);
+      border: 1px solid var(--artemis-cyan);
+      border-radius: 8px;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 14px rgba(0, 229, 255, 0.35);
+    }
+    .relic-name {
+      font-family: 'Cinzel', serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #ffffff;
+      text-shadow: 0 0 14px rgba(0, 229, 255, 0.5);
+    }
+    .relic-tag {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #7dd3fc;
+    }
+    .relic-stat-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 14px 0;
+    }
+    .stat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #111a2e;
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 0.92rem;
+      color: #e2e8f0;
+    }
+    .stat-badge strong {
+      color: var(--artemis-cyan);
+    }
+
+    /* In-game Commands Callout */
+    .cmd-box {
+      background: linear-gradient(135deg, #0c1424 0%, #060a12 100%);
+      border: 1px solid var(--artemis-cyan);
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin: 20px 0;
+      box-shadow: 0 0 20px rgba(0, 229, 255, 0.15);
+    }
+    .cmd-name {
+      font-family: 'Rajdhani', monospace;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--artemis-cyan);
+      text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+      margin-bottom: 6px;
     }
 
     /* Lists */
@@ -438,6 +709,7 @@
       },
       subMaxLevel: 0,
       maxLevel: 3,
+      sidebarDisplayLevel: 1,
       homepage: 'presentacion.md',
       auto2top: true,
       search: {
@@ -448,6 +720,7 @@
     };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>

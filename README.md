@@ -1,6 +1,6 @@
-# Artemis Wiki (Copia Completa)
+# ⚔️ Artemis Dofus 2.51 — Enciclopedia & Guía Oficial
 
-Copia completa y duplicado de la documentación oficial de Artemis:
-https://artemis-cheat.gitbook.io/artemis
+Enciclopedia completa y documentación oficial de **Artemis Dofus 2.51 Fun Cheto Duo**.
 
-Esta carpeta contiene todas las páginas en formato Markdown, las imágenes descargadas localmente y el archivo `SUMMARY.md` compatible con GitBook, GitHub Wiki, VitePress, Obsidian y MkDocs.
+- 🌐 **Sitio Web Oficial en Vivo:** [https://dnkjs.github.io/Artemis-Wiki/](https://dnkjs.github.io/Artemis-Wiki/)
+- 📖 Contiene todas las guías de actividades, jugabilidad, zonas exclusivas, entretenimiento, reliquias con bonus y sistemas de progresión de rangos (VIP 1, VIP y PREMIUM).

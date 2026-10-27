@@ -92,7 +92,7 @@ El recurso obtenido en la zona artemis'hard es fundamental para la compra de:
 
 Por lo tanto, el modo Artemis'Hard es un paso esencial para los jugadores que buscan maximizar su poder mientras enfrentan desafíos de alto nivel.
 
-:x: **AÚN NO ESTA HABILITADA ESTA ZONA** :x:
+❌ **AÚN NO ESTÁ HABILITADA ESTA ZONA** ❌
 
 Aquí dejo, las características de las reliquias de mazmorra, allí pueden modificar si las tienen o no y este les contará el total en el apartado de características, esta opción funciona solo con las reliquias hardcore, no temporal ni artemishard.
 

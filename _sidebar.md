@@ -1,10 +1,10 @@
-* [📜 Presentación](presentacion.md)
+* [📖 Presentación](presentacion.md)
 
-* **📖 Información**
-  * [🚄 Únete a nosotros](informacion/unete-a-nosotros.md)
-  * [⌛ Vota y gana](informacion/vota-y-gana.md)
+* **INFORMACIÓN**
+  * [🚀 Únete a nosotros](informacion/unete-a-nosotros.md)
+  * [💎 Vota y gana](informacion/vota-y-gana.md)
 
-* **⚔️ Juego**
+* **JUEGO**
   * [⭐ Progresión y rangos](juego/progresion-y-rangos.md)
     * [👑 Rangos Artemis](juego/progresion-y-rangos/rangos-artemis.md)
     * [⚡ Bonificaciones Diarias](juego/progresion-y-rangos/bonificaciones-diarias.md)
