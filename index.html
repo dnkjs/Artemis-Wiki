@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Artemis Wiki</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Wiki oficial de Artemis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #5865F2;
+    }
+    .sidebar {
+      background-color: #1e1f22;
+      color: #dbdee1;
+    }
+    .sidebar-nav a {
+      color: #dbdee1;
+    }
+    .sidebar-nav li.active > a {
+      color: #5865F2;
+      font-weight: bold;
+    }
+    body {
+      background-color: #2b2d31;
+      color: #f2f3f5;
+    }
+    .markdown-section h1, .markdown-section h2, .markdown-section h3 {
+      color: #ffffff;
+    }
+    .markdown-section table th, .markdown-section table td {
+      border-color: #404249;
+    }
+    .markdown-section tr:nth-child(2n) {
+      background-color: #313338;
+    }
+    .markdown-section code {
+      background-color: #1e1f22;
+      color: #eb459e;
+    }
+    .search input {
+      background-color: #1e1f22 !important;
+      color: #ffffff !important;
+      border: 1px solid #404249 !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Cargando Artemis Wiki...</div>
+  <script>
+    window.$docsify = {
+      name: '🌙 Artemis Wiki',
+      repo: 'https://github.com/dnkjs/Artemis-Wiki',
+      loadSidebar: 'SUMMARY.md',
+      subMaxLevel: 2,
+      homepage: 'presentacion.md',
+      auto2top: true,
+      search: {
+        placeholder: 'Buscar en la wiki...',
+        noData: 'Sin resultados',
+        depth: 3
+      }
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+</body>
+</html>
