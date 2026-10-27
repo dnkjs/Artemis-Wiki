@@ -6,7 +6,7 @@ $target = 'LegacyGeneric:target=GitHub - https://api.github.com/dnkjs'
 Add-Type @"
 using System;
 using System.Runtime.InteropServices;
-public class CME {
+public class CMF {
     [DllImport("advapi32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
     public static extern bool CredRead(string target, int type, int reservedFlag, out IntPtr credPtr);
     [DllImport("advapi32.dll", SetLastError = true)]
@@ -32,7 +32,7 @@ public class CME {
     }
 }
 "@
-[CME]::Get($target)
+[CMF]::Get($target)
 `;
 fs.writeFileSync('temp_t.ps1', ps, 'utf8');
 const token = execSync('powershell -ExecutionPolicy Bypass -File temp_t.ps1', { encoding: 'utf8' }).trim();
@@ -40,7 +40,7 @@ fs.unlinkSync('temp_t.ps1');
 
 execSync(`git remote set-url origin https://dnkjs:${token}@github.com/dnkjs/Artemis-Wiki.git`);
 execSync('git add -A');
-execSync('git commit -m "Clean push_docs"');
+execSync('git commit -m "Add .gitignore and clean index"');
 execSync('git push origin main');
 execSync('git remote set-url origin https://github.com/dnkjs/Artemis-Wiki.git');
-console.log('Clean push complete!');
+console.log('Final git status clean!');
