@@ -1,0 +1,35 @@
+$target = 'LegacyGeneric:target=GitHub - https://api.github.com/dnkjs'
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class CM4 {
+    [DllImport("advapi32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
+    public static extern bool CredRead(string target, int type, int reservedFlag, out IntPtr credPtr);
+    [DllImport("advapi32.dll", SetLastError = true)]
+    public static extern void CredFree(IntPtr credPtr);
+    [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
+    public struct CRED {
+        public int Flags, Type; public string TargetName, Comment;
+        public System.Runtime.InteropServices.ComTypes.FILETIME LastWritten;
+        public int CredentialBlobSize; public IntPtr CredentialBlob;
+        public int Persist, AttributeCount; public IntPtr Attributes;
+        public string TargetAlias, UserName;
+    }
+    public static string Get(string target) {
+        IntPtr p;
+        if (CredRead(target, 1, 0, out p)) {
+            CRED c = (CRED)Marshal.PtrToStructure(p, typeof(CRED));
+            byte[] b = new byte[c.CredentialBlobSize];
+            Marshal.Copy(c.CredentialBlob, b, 0, c.CredentialBlobSize);
+            CredFree(p);
+            return System.Text.Encoding.UTF8.GetString(b);
+        }
+        return null;
+    }
+}
+"@
+$token = [CM4]::Get($target)
+git add -A
+git commit -m "Fix sidebar navigation and convert GitBook column tags to clean tables"
+$remoteUrl = "https://dnkjs:$token@github.com/dnkjs/Artemis-Wiki.git"
+git push $remoteUrl main
