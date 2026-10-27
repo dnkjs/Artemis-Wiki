@@ -6,7 +6,7 @@ $target = 'LegacyGeneric:target=GitHub - https://api.github.com/dnkjs'
 Add-Type @"
 using System;
 using System.Runtime.InteropServices;
-public class CMD {
+public class CME {
     [DllImport("advapi32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
     public static extern bool CredRead(string target, int type, int reservedFlag, out IntPtr credPtr);
     [DllImport("advapi32.dll", SetLastError = true)]
@@ -32,13 +32,15 @@ public class CMD {
     }
 }
 "@
-[CMD]::Get($target)
+[CME]::Get($target)
 `;
 fs.writeFileSync('temp_t.ps1', ps, 'utf8');
 const token = execSync('powershell -ExecutionPolicy Bypass -File temp_t.ps1', { encoding: 'utf8' }).trim();
 fs.unlinkSync('temp_t.ps1');
 
-execSync('git add -A', { stdio: 'inherit' });
-execSync('git commit -m "Update registration, download, and voting guides from Discord Bot"', { stdio: 'inherit' });
-execSync(`git push https://dnkjs:${token}@github.com/dnkjs/Artemis-Wiki.git main`, { stdio: 'inherit' });
-console.log('Pushed successfully!');
+execSync(`git remote set-url origin https://dnkjs:${token}@github.com/dnkjs/Artemis-Wiki.git`);
+execSync('git add -A');
+execSync('git commit -m "Clean push_docs"');
+execSync('git push origin main');
+execSync('git remote set-url origin https://github.com/dnkjs/Artemis-Wiki.git');
+console.log('Clean push complete!');
