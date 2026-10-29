@@ -1,10 +1,12 @@
 # Drop Dofus
 
+<div align="center">
+  <img src=".gitbook/assets/drop_dofus_banner.png" alt="Drop Dofus Artemis" style="border-radius: 10px; border: 1px solid rgba(0, 210, 255, 0.4); box-shadow: 0 8px 32px rgba(0, 162, 255, 0.3); margin-bottom: 25px;">
+</div>
+
 En **Artemis Dofus 2.51**, la obtención de los legendarios **Huevos de Dragón (Dofus)** combina la esencia clásica con un sistema de **drop directo** al derrotar a los jefes de mazmorra. ¡Ya no necesitas extensas misiones para conseguirlos, basta con desafiar las mazmorras correspondientes y poner a prueba tu poder y fortuna!
 
 ---
-
-<figure><img src="../../.gitbook/assets/drop_dofus_banner.png" alt="Drop Dofus Artemis"><figcaption>Drop de Dofus Primordiales y Elementales en Artemis 2.51</figcaption></figure>
 
 ## 📊 Tabla Oficial de Probabilidades de Drop
 

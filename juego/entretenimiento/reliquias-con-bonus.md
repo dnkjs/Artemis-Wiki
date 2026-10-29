@@ -33,7 +33,7 @@ En **Artemis Dofus 2.51**, algunas de nuestras reliquias más preciadas cuentan 
     <li><strong>Ideal para:</strong> Farmear recursos legendarios, optimizar tiempo de juego y acelerar la subida de nivel.</li>
   </ul>
 
-  <figure><img src="../../.gitbook/assets/image_29.png" alt="Reliquia Skull"><figcaption>Vista en juego de la Reliquia Skull</figcaption></figure>
+  <figure><img src=".gitbook/assets/image_29.png" alt="Reliquia Skull"><figcaption>Vista en juego de la Reliquia Skull</figcaption></figure>
 </div>
 
 ---
@@ -64,7 +64,7 @@ En **Artemis Dofus 2.51**, algunas de nuestras reliquias más preciadas cuentan 
     <li><strong>Resultado:</strong> Más combates = mayor volumen masivo de Ogrinas acumuladas sin costo adicional.</li>
   </ul>
 
-  <figure><img src="../../.gitbook/assets/image_30.png" alt="Reliquia de Amor"><figcaption>Vista en juego de la Reliquia de Amor</figcaption></figure>
+  <figure><img src=".gitbook/assets/image_30.png" alt="Reliquia de Amor"><figcaption>Vista en juego de la Reliquia de Amor</figcaption></figure>
 </div>
 
 ---
@@ -94,7 +94,7 @@ En **Artemis Dofus 2.51**, algunas de nuestras reliquias más preciadas cuentan 
     <li><strong>Resultado:</strong> Ventaja acumulativa exponencial a medida que tu personaje evoluciona.</li>
   </ul>
 
-  <figure><img src="../../.gitbook/assets/image_31.png" alt="Reliquia del Dragón"><figcaption>Vista en juego de la Reliquia del Dragón</figcaption></figure>
+  <figure><img src=".gitbook/assets/image_31.png" alt="Reliquia del Dragón"><figcaption>Vista en juego de la Reliquia del Dragón</figcaption></figure>
 </div>
 
 ---
@@ -125,7 +125,7 @@ En **Artemis Dofus 2.51**, algunas de nuestras reliquias más preciadas cuentan 
     <li>Tus reliquias de oficio suben de nivel un tercio más rápido.</li>
   </ul>
 
-  <figure><img src="../../.gitbook/assets/image_32.png" alt="Reliquia De La W"><figcaption>Vista en juego de la Reliquia De La W</figcaption></figure>
+  <figure><img src=".gitbook/assets/image_32.png" alt="Reliquia De La W"><figcaption>Vista en juego de la Reliquia De La W</figcaption></figure>
 </div>
 
 ---

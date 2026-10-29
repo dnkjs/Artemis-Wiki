@@ -16,7 +16,7 @@
 * Cada acción de recolección aumenta directamente el poder de la reliquia.
 * No se necesitan recursos de prestigio para mejorarlo.
 
-<figure><img src="../../.gitbook/assets/image_17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_17.png" alt=""><figcaption></figcaption></figure>
 
 #### 🔝 Prestigio en Oficio
 
@@ -41,7 +41,7 @@ Se obtiene al reunir recursos de fabricación.
 
 Estas reliquias requieren recursos recolectados por el jugador como parte de su profesión.
 
-<figure><img src="../../.gitbook/assets/image_18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_18.png" alt=""><figcaption></figcaption></figure>
 
 #### ✨ **Reliquia Del Artesano**
 
@@ -50,7 +50,7 @@ Además de las reliquias raras, es posible crear la Reliquia del Artesano Destac
 * Fusión de recursos de **todas las profesiones**.
 * Funciona como una reliquia rara mejorada.
 
-<figure><img src="../../.gitbook/assets/image_19.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_19.png" alt=""><figcaption></figcaption></figure>
 
 ### 🍖 3. **Explicación** **Oficio Cazador**
 
@@ -62,7 +62,7 @@ Para empezar a subir este oficio deberán contar con algunos requisitos:
 
 **IMPORTANTE:** En la misma tienda de Jobs podrán encontrar el **Cuchillo de Caza** este les da como beneficio obtener x2 en XP & Recursos del oficio cazador.
 
-<figure><img src="../../.gitbook/assets/image_20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_20.png" alt=""><figcaption></figcaption></figure>
 
 ## 🔝 4. ¿Como Y Donde Levear Oficio Cazador?
 
@@ -82,7 +82,7 @@ Llevar alguna de estas armas cuando se esta realizando el oficio trae algunos be
 * Drop de Artemis'Job x2.
 * 20% más de bonus de subida en stats en la reliquia.
 
-<figure><img src="../../.gitbook/assets/image_21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_21.png" alt=""><figcaption></figcaption></figure>
 
 ### 🎯 Conclusión
 

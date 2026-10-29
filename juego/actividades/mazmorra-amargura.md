@@ -30,7 +30,7 @@ Accesible al final de la mazmorra para gastar tus Fichas de Amargura.
 * Varias reliquias que proporcionan daño final para mejorar tu personaje.
 * Un poderoso Trofeo , consíguelo para aumentar tu fuerza y ​​tus habilidades.
 
-<figure><img src="../../.gitbook/assets/image_13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_13.png" alt=""><figcaption></figcaption></figure>
 
 ### ⚠️ Condiciones de Uso
 

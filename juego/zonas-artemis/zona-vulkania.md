@@ -76,9 +76,9 @@ A continuación se dejará los scroll por mob que deberian ir subiendo en orden 
 * Cada mazmorra ofrece un **Dofus y Reliquia único.**
 * Los 4 Dofus se pueden **fusionar** para crear el **Dofus Vulkanium.**
 
-<figure><img src="../../.gitbook/assets/image_49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_49.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image_50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_50.png" alt=""><figcaption></figcaption></figure>
 
 ### 👑 Jefe especial: Tera Boss'Vulka
 

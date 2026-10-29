@@ -65,7 +65,7 @@ Las batallas contra los jefes dimensionales se desarrollan a lo largo de **5 ole
 * Cada tipo de mazmorra permite aumentar las estadísticas y la vitalidad de la reliquia hasta un límite determinado, como se describió anteriormente.
 * Reliquias de Megamazmorras que mejoran al completarlas. Hay cuatro y se maximizarán al completar un número determinado de mazmorras de la Megamazmorra en cuestión.
 
-<figure><img src="../../.gitbook/assets/image_11.png" alt="Reliquias de Megamazmorras"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_11.png" alt="Reliquias de Megamazmorras"><figcaption></figcaption></figure>
 
 ---
 

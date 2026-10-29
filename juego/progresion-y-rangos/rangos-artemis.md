@@ -105,5 +105,5 @@ El rango supremo en Artemis. Diseñado para quienes buscan el máximo poder abso
 
 ---
 
-<figure><img src="../../.gitbook/assets/image_42.png" alt="Rangos Artemis"><figcaption>Rangos en Artemis</figcaption></figure>
-<figure><img src="../../.gitbook/assets/image_43.png" alt="Beneficios Artemis"><figcaption>Beneficios en Tienda Artemis</figcaption></figure>
+<figure><img src=".gitbook/assets/image_42.png" alt="Rangos Artemis"><figcaption>Rangos en Artemis</figcaption></figure>
+<figure><img src=".gitbook/assets/image_43.png" alt="Beneficios Artemis"><figcaption>Beneficios en Tienda Artemis</figcaption></figure>

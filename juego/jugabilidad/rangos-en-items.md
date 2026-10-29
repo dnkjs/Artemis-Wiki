@@ -14,7 +14,7 @@ Una vez que un objeto alcanza su máximo potencial (Prestigio 5, Nivel 100), pue
 * **Épico:** Aumento de Stats 60%
 * **Legendario:** Aumento de Stats 100%
 
-<figure><img src="../../.gitbook/assets/image_41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_41.png" alt=""><figcaption></figcaption></figure>
 
 ### ❌ Pocima de Eliminacion de Rango
 

@@ -29,7 +29,7 @@ La Zona Pwak es una zona avanzada accesible para aventureros de alto nivel. Ofre
 * Los Dofus de las mazmorras son necesarios para fabricar el **Dofus** **Pwak.**
 * Este  Dofus se crea utilizando una **receta especial.**
 
-<figure><img src="../../.gitbook/assets/image_48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_48.png" alt=""><figcaption></figcaption></figure>
 
 ### ⭐ Puntos clave
 

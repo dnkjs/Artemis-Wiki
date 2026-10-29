@@ -10,7 +10,7 @@ Prestigear un oficio es más sencillo de lo que puedes pensar:
 * Contar con La Pócima de Ambrosía.
 * Maximo de Prestigios de oficio es 3.
 
-<figure><img src="../../.gitbook/assets/image_22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_22.png" alt=""><figcaption></figcaption></figure>
 
 <sub><mark style="color:red;">Nota: Podrás adquirir estas pócimas en boutique o por receta con el comerciante de recursos de oficios de<mark style="color:red;"></sub> <sub><mark style="color:red;"> </sub><sub><mark style="color:red;">**Zona NPC.**<mark style="color:red;"></sub>
 
@@ -18,7 +18,7 @@ Prestigear un oficio es más sencillo de lo que puedes pensar:
 
 A medida que logres alcanzar tu siguiente prestigio el recurso será diferente, cada recurso farm ahora sera del prestigio en el que te encuentres, y estos podrán ser utilizados para mejorar las reliquias raras el cual se explicará más adelante.
 
-<figure><img src="../../.gitbook/assets/image_23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_23.png" alt=""><figcaption></figcaption></figure>
 
 ### 🏹 Aumento de Reliquias de Oficio
 
@@ -28,7 +28,7 @@ No solo te beneficias de nuevos recursos dependiendo de tu prestigio, tus reliqu
 * **Prestigio 2:** 1.500.000 Vitalidad, 750.000 Elementos.
 * **Prestigio 3:** 2.000.000 Vitalidad, 1.000.000 Elementos.
 
-<figure><img src="../../.gitbook/assets/image_24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_24.png" alt=""><figcaption></figcaption></figure>
 
 ### 🔆 Aumento Reliquias Raras de Oficio
 
@@ -37,7 +37,7 @@ En Zona NPC podrás encontrar un nuevo npc llamado **Mejora Reliquias** **de Pro
 * Deberás entregar los mismos recursos.&#x20;
 * La misma cantidad pedida a la que realizas para obtener por primera vez la reliquia rara.
 
-<figure><img src="../../.gitbook/assets/image_25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_25.png" alt=""><figcaption></figcaption></figure>
 
 <sub><mark style="color:red;">Nota: Los recursos deberán ser del prestigio de oficio a mejorar.<mark style="color:red;"></sub>
 

@@ -7,7 +7,7 @@ El sistema de **Prestigio en Items** de **Artemis Dofus 2.51** te permite potenc
 <div class="relic-box">
   <div class="relic-header">
     <div class="relic-title-group">
-      <img src="../../.gitbook/assets/pocion_prestigio.png" alt="Poción de Prestigio" style="width: 52px; height: 52px; margin: 0; border: 1px solid var(--artemis-cyan); border-radius: 8px; box-shadow: 0 0 15px rgba(0, 229, 255, 0.4);">
+      <img src=".gitbook/assets/pocion_prestigio.png" alt="Poción de Prestigio" style="width: 52px; height: 52px; margin: 0; border: 1px solid var(--artemis-cyan); border-radius: 8px; box-shadow: 0 0 15px rgba(0, 229, 255, 0.4);">
       <div>
         <div class="relic-name">Poción de Prestigio de Objeto</div>
         <div class="rpg-card-desc">Reactivo alquímico místico para consagrar equipamiento al nivel 100</div>
@@ -58,7 +58,7 @@ Antes de poder aplicar la poción, tu objeto debe alcanzar el **nivel 100 de XP*
    *(El porcentaje de donación se configurará automáticamente en un **90%**).*
 6. **¡Listo para combatir!** A partir de ese momento, el 90% de la experiencia obtenida en tus combates se destinará a tu objeto. A medida que acumule XP y suba niveles, sus estadísticas comenzarán a aumentar progresivamente hasta llegar a su tope de nivel 100.
 
-<figure><img src="../../.gitbook/assets/image_39.png" alt="Asignar XP a un item"><figcaption>Menú contextual para asignar experiencia al equipamiento</figcaption></figure>
+<figure><img src=".gitbook/assets/image_39.png" alt="Asignar XP a un item"><figcaption>Menú contextual para asignar experiencia al equipamiento</figcaption></figure>
 
 > [!NOTE]
 > La experiencia recibida por combate tiene un límite balanceado para evitar abusos. Al llegar a nivel 100, el objeto habrá alcanzado el máximo potencial de ese nivel y estará listo para recibir la poción de prestigio.
@@ -95,4 +95,4 @@ Una vez que tu objeto se encuentre en **Nivel 100**:
 3. El objeto recibirá su **nuevo nivel de prestigio**, desbloqueando multiplicadores superiores en sus estadísticas base.
 4. El nivel de XP del objeto se **reiniciará a 1**. Para continuar subiéndolo al siguiente nivel de prestigio (P2, P3, etc.), deberás repetir el proceso de asignación de XP hasta que vuelva a alcanzar el nivel 100.
 
-<figure><img src="../../.gitbook/assets/image_40.png" alt="Uso de poción de prestigio"><figcaption>Aplicación y consulta de pociones de prestigio en juego</figcaption></figure>
+<figure><img src=".gitbook/assets/image_40.png" alt="Uso de poción de prestigio"><figcaption>Aplicación y consulta de pociones de prestigio en juego</figcaption></figure>

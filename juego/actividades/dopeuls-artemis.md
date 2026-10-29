@@ -16,7 +16,7 @@ Con tu equipo JcJ, puedes enfrentarte a los **Dopeuls de cada clase** :
 * También puedes obtener un **mechón de Dopeul** .
 * Una vez que se hayan recogido todos los mechones → intercámbialos por la **Reliquia Peluda**.
 
-<figure><img src="../../.gitbook/assets/image_12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_12.png" alt=""><figcaption></figcaption></figure>
 
 ### 🎟️ Pase Dopeul
 

@@ -26,7 +26,7 @@ En el servidor, puedes participar en **sorteos especiales** ubicados en el mapa 
 
 <sub><mark style="color:red;">PD: La imagen es la referencia del trofeo que se gana en esta ruleta.<mark style="color:red;"></sub>
 
-<figure><img src="../../.gitbook/assets/image_26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_26.png" alt=""><figcaption></figcaption></figure>
 
 ### 🎲 2. Lotería de Fichas de Casino
 
@@ -44,11 +44,11 @@ En el servidor, puedes participar en **sorteos especiales** ubicados en el mapa 
 * 🏆 Mejora de Trofeo Ruleta.
 * 🎰 Reliquia Exclusiva de Casino
 
-<figure><img src="../../.gitbook/assets/image_27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_27.png" alt=""><figcaption></figcaption></figure>
 
 <sub><mark style="color:red;">PD: La imagen es la referencia de la reliquia que se gana en casino.<mark style="color:red;"></sub>
 
-<figure><img src="../../.gitbook/assets/image_28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_28.png" alt=""><figcaption></figcaption></figure>
 
 <sub><mark style="color:red;">Esta imagen hace referencia al trofeo de ruleta, mejorado al maximo con el recurso de mejora ganado en casino.<mark style="color:red;"></sub>
 

@@ -29,7 +29,7 @@ Los valores de bonificación máximos que puede proporcionar una reliquia son:
 * Estadísticas base (Fuerza, Inteligencia, Suerte, Agilidad): Máximo de 1.000.000 por estadística.
 * Potencia: Máximo de 500.000.
 
-<figure><img src="../../.gitbook/assets/image_38.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_38.png" alt=""><figcaption></figcaption></figure>
 
 ### 💫 Utilidad de las Reliquias
 

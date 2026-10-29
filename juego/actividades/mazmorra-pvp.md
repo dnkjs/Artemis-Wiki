@@ -25,7 +25,7 @@ Cuanto más alto sea tu rango, más poderosa será tu reliquia.
 
 El poseer alas te trae como beneficio daños finales, sin embargo para que estos sean notables deberás tener activas tus alas.
 
-<figure><img src="../../.gitbook/assets/image_14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_14.png" alt=""><figcaption></figcaption></figure>
 
 ### 🪐 Limites y Honor
 
@@ -33,7 +33,7 @@ El poseer alas te trae como beneficio daños finales, sin embargo para que estos
 * Al ganar una batalla podrás obtener 20 de honor, por el contrario si pierdes serán -150 de honor.
 * Despues del grado 5 obtendrás **Chaveuvepe** y a medida que avances de grado ganarás más, con estas fichas podrás canjearlas en la tienda de .pvp
 
-<figure><img src="../../.gitbook/assets/image_15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_15.png" alt=""><figcaption></figcaption></figure>
 
 ### 🎯 **Conclusión**
 

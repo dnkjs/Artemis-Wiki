@@ -14,7 +14,7 @@ La Zona Evo es una zona esencial para el final del juego , diseñada para los av
 * La zona contiene **4 mazmorras elementales** (Aire, Fuego, Tierra, Agua).
 * Se puede acceder a cada mazmorra mediante un **Pase-específico** que se puede drop en la zona evo.
 
-<figure><img src="../../.gitbook/assets/image_44.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_44.png" alt=""><figcaption></figcaption></figure>
 
 #### Progresión en oleadas
 
@@ -27,7 +27,7 @@ La Zona Evo es una zona esencial para el final del juego , diseñada para los av
 * Cada elemento progresa del **nivel I → II → III → IV**
 * Una vez conseguido un objeto IV deberás reunir el resto de los elementales para poder adquirir la parte del aquarella.
 
-<figure><img src="../../.gitbook/assets/image_45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_45.png" alt=""><figcaption></figcaption></figure>
 
 ### 🛡️ **Uso De Piedras Protectoras**
 
@@ -43,14 +43,14 @@ Ejemplo :
 
 Deberás hacer esto con todos los objetos de todos los elementos de la mazmorra para alcanzar el IV definitivo:
 
-<figure><img src="../../.gitbook/assets/image_46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_46.png" alt=""><figcaption></figcaption></figure>
 
 ### 💎**Reliquia Evo**
 
 * ✅ Se ganará al ganar un combate en zona'evo.
 * ✅ Irá aumentando a medida que logres derrotar a los monster de zona.
 
-<figure><img src="../../.gitbook/assets/image_47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_47.png" alt=""><figcaption></figcaption></figure>
 
 ### 🎯 Conclusión
 

@@ -37,7 +37,7 @@ Ahora que el Modo Hardcore está habilitado, puedes comenzar a cultivar tus Reli
 
 ¡Al final de la mazmorra, hay un NPC que te permitirá comprar la reliquia de la mazmorra en cuestión para los recursos del jefe!
 
-<figure><img src="../../.gitbook/assets/image_33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_33.png" alt=""><figcaption></figcaption></figure>
 
 ### 💥 Utilidad Recursos Hardcore
 
@@ -48,7 +48,7 @@ Los recursos obtenidos en las mazmorras Hardcore son fundamentales para la evolu
 
 <sub><mark style="color:red;">**Nota Importante:**<mark style="color:red;"></sub> <sub><mark style="color:red;"> </sub><sub><mark style="color:red;">Hay un total de 96 mazmorras , cada una de las cuales te permite obtener una reliquia esencial para fortalecer a tu personaje y desbloquear el acceso al siguiente modo (Modo Temporal).<mark style="color:red;"></sub>
 
-<figure><img src="../../.gitbook/assets/image_34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_34.png" alt=""><figcaption></figcaption></figure>
 
 ### 🤖 Reliquia de Hardcore
 
@@ -62,7 +62,7 @@ Esta reliquia se puede mejorar hasta 3 niveles . Estos son los requisitos para c
 
 ¡Buena suerte en tu búsqueda para obtener y mejorar esta reliquia legendaria!
 
-<figure><img src="../../.gitbook/assets/image_35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_35.png" alt=""><figcaption></figcaption></figure>
 
 ## ⌛ Modo Temporal
 
@@ -79,7 +79,7 @@ Respecto a las mejoras de reliquias en el modo Temporal, las estadísticas se be
 
 Sin embargo, las resistencias % y el daño % no se pueden mejorar en este modo.
 
-<figure><img src="../../.gitbook/assets/image_36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_36.png" alt=""><figcaption></figcaption></figure>
 
 <sub><mark style="color:red;">Para poder acceder al Modo Tiempo, será necesario que tengas en tu poder las reliquias de todas las mazmorras.<mark style="color:red;"></sub>
 
@@ -87,7 +87,7 @@ Sin embargo, las resistencias % y el daño % no se pueden mejorar en este modo.
 
 Además de tener que mejorar tus reliquias de mazmorra, tendrás una reliquia para cultivar que mejorará por sí sola después de tus peleas contra los jefes de mazmorra, aquí está:
 
-<figure><img src="../../.gitbook/assets/image_37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image_37.png" alt=""><figcaption></figcaption></figure>
 
 ### 🎢 Modo Artemis'Hard
 

@@ -6,7 +6,7 @@ Activar uno de estos modos no solo aumentará la dificultad estratégica de tus 
 
 ---
 
-<figure><img src="../../.gitbook/assets/hardcore_banner.png" alt="Modo Hardcore"><figcaption>Modo Hardcore — El desafío definitivo de mazmorras en Artemis</figcaption></figure>
+<figure><img src=".gitbook/assets/hardcore_banner.png" alt="Modo Hardcore"><figcaption>Modo Hardcore — El desafío definitivo de mazmorras en Artemis</figcaption></figure>
 
 ## 🛡️ Descubrimiento del Modo Hardcore
 
@@ -25,7 +25,7 @@ La razón es simple: **¡recompensas tentadoras!** Competir en el modo Hardcore 
 
 Para alternar entre activar y desactivar el modo Hardcore, simplemente debes hacer clic en el **icono de la calavera** ubicado en la barra de accesos rápidos de la interfaz inferior de tu pantalla de juego:
 
-<figure><img src="../../.gitbook/assets/hardcore_on.png" alt="Habilitar Modo Hardcore"><figcaption>Haz clic en el icono de la calavera («Hardcore ON») para activar el modo</figcaption></figure>
+<figure><img src=".gitbook/assets/hardcore_on.png" alt="Habilitar Modo Hardcore"><figcaption>Haz clic en el icono de la calavera («Hardcore ON») para activar el modo</figcaption></figure>
 
 ---
 
@@ -36,7 +36,7 @@ Hay dos indicadores en pantalla que lo confirman con total claridad:
 1. **Marca de verificación verde en el icono:** El icono de la calavera en la barra inferior mostrará un **borde resaltado y un círculo con marca de verificación verde (✔)** en su esquina superior izquierda.
 2. **Indicador de estado en pantalla:** Al colocar el cursor sobre el icono, el texto flotante cambiará a **«Hardcore OFF»** (indicando que el modo está actualmente encendido y que hacer clic lo apagaría). También puedes verificar el indicador de texto de estado en la parte superior izquierda de la pantalla.
 
-<figure><img src="../../.gitbook/assets/hardcore_off.png" alt="Modo Hardcore Habilitado"><figcaption>El icono con borde verde y el mensaje «Hardcore OFF» confirman que el modo está activo</figcaption></figure>
+<figure><img src=".gitbook/assets/hardcore_off.png" alt="Modo Hardcore Habilitado"><figcaption>El icono con borde verde y el mensaje «Hardcore OFF» confirman que el modo está activo</figcaption></figure>
 
 ---
 
