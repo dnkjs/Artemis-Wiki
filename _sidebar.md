@@ -14,6 +14,7 @@
     * [🌌 Zona Evo](juego/zonas-artemis/zona-evo.md)
     * [🌋 Zona Vulkania](juego/zonas-artemis/zona-vulkania.md)
   * [🎭 Actividades](juego/actividades.md)
+    * [🥚 Drop Dofus](juego/actividades/drop-dofus.md)
     * [🎲 Artemis'Farm Universal](juego/actividades/artemisfarm-universal.md)
     * [💀 Mazmorras Diarias](juego/actividades/mazmorras-diarias.md)
     * [🛠️ Oficios Artemis](juego/actividades/oficios-artemis.md)

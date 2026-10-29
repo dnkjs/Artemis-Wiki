@@ -6,6 +6,15 @@ Explora cada una de las guías detalladas a continuación:
 
 <div class="rpg-grid">
 
+  <a href="#/juego/actividades/drop-dofus" class="rpg-card">
+    <div>
+      <span class="rpg-card-badge">🥚 Botín Legendario</span>
+      <div class="rpg-card-title">Drop Dofus</div>
+      <div class="rpg-card-desc">Tabla oficial de probabilidades y mazmorras de los 15 Dofus primordiales y elementales (Ocre, Vulbis, Marfil, Ébano, etc.).</div>
+    </div>
+    <div class="rpg-card-action">Ver Guía Completa →</div>
+  </a>
+
   <a href="#/juego/actividades/artemisfarm-universal" class="rpg-card">
     <div>
       <span class="rpg-card-badge">🚜 Farmeo Global</span>
