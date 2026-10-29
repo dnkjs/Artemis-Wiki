@@ -24,9 +24,16 @@ Podrás encontrar la zona Temporal y Artemis'Hard en el Custom Panel, apartado *
 
 ### 👹 Modo Hardcore
 
-Ahora que el Modo Hardcore está habilitado, puedes comenzar a cultivar tus Reliquias de Mazmorra: en la sala del jefe obtendrás los recursos del jefe en cuestión.
+El Modo Hardcore cuadruplica las estadísticas de los monstruos a cambio de otorgar recursos especiales de mazmorra tras vencer al jefe de cada sala.
 
-<sub><mark style="color:red;">Nota: Si eres pj Normal obtienes x1, Si tienes Vip obtienes x2, Si tienes Premium obtienes x3<mark style="color:red;"></sub>
+> [!TIP]
+> **¿Cómo activar el Modo Hardcore?**
+> Para aprender a habilitar o verificar el estado del modo Hardcore desde tu barra de interfaz con el icono de la calavera, consulta la guía detallada de [Modos de Combate](#/juego/jugabilidad/modos-de-combate).
+
+Ahora que el Modo Hardcore está habilitado, puedes comenzar a cultivar tus Reliquias de Mazmorra: en la sala del jefe obtendrás los recursos del jefe en cuestión:
+* 👤 **Jugador Común:** 1 recurso HC
+* 🥈 **Rango VIP:** 2 recursos HC *(Doble)*
+* 👑 **Rango PREMIUM:** 3 recursos HC *(Triple)*
 
 ¡Al final de la mazmorra, hay un NPC que te permitirá comprar la reliquia de la mazmorra en cuestión para los recursos del jefe!
 
